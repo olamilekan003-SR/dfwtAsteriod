@@ -3,12 +3,12 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>DfwtAsteriod</title>
+    <title>DfwtAsteroid</title>
     <link rel="stylesheet" type="text/css" href="./dfwtAsteriod.css">
 </head>
 <body>
     <header>
-        <h1>Welcome to DfwtAsteriod</h1>
+        <h1>Welcome to DfwtAsteroid</h1>
         <nav>
             <ul>
                 <li><a href="dfwthome.html">Home</a></li>
@@ -21,11 +21,11 @@
     <main>
         <section id="home">
             <h2>Style Beyond Limits</h2>
-            <p>Discover the latest trends with DfwtAsteriod. Fashion that defines you.</p>
+            <p>Discover the latest trends with DfwtAsteroid. Fashion that defines you.</p>
         </section>
         <section id="about">
             <h2>About Us</h2>
-            <p>DfwtAsteriod is a clothing brand dedicated to delivering unique and stylish apparel that transcends fashion norms.</p>
+            <p>DfwtAsteroid is a clothing brand dedicated to delivering unique and stylish apparel that transcends fashion norms.</p>
         </section>
         <section id="collections">
             <h2>Our Collections</h2>
@@ -40,10 +40,48 @@
             <h2>Contact Us</h2>
             <p>Email: <a href="email">owolabiolamilekan071@gmail.com</a></p>
             <p>Phone: +234 91 6290 2876</p>
+        </section>   
+        
+        <section id="signup">
+            <h2>Sign Up</h2>
+            <form id="signup-form">
+                Username: <input type="text" id="username" name="username" required> 
+                Email: <input type="email" id="email" name="email" required> 
+                Password: <input type="password" id="password" name="password" required>
+                <button type="submit">Sign Up</button>
+            </form>
         </section>
+        
+        <section id="order">
+            <h2>Place Your Order</h2>
+            <form id="order-form">
+                Product: 
+                    <select id="product" name="product">
+                        <option value="product1">Product 1</option>
+                        <option value="product2">Product 2</option>
+                        <option value="product3">Product 3</option>
+                        <option value="product3">Product 4</option>
+                        <option value="product3">Product 5</option>
+                        <option value="product3">Product 6</option>
+                        <option value="product3">Product 7</option>
+                        <option value="product3">Product 8</option>
+                        <option value="product3">Product 9</option>
+                    </select>
+                
+                Quantity: <input type="number" id="quantity" name="quantity" min="1" value="1" required>Measurement: 
+                <input type="text" id="measurement" name="measurement" placeholder="Enter measurement details" required>
+
+                Delivery Address: <textarea id="address" name="address" rows="3" required></textarea>
+                <button type="submit">Place Order</button>
+            </form>
+        </section>
+        
+      
     </main>
     <footer>
-        <p>&copy; 2025 DfwtAsteriod. All rights reserved.</p>
+        <p>@ 2025 DfwtAsteroid. All rights reserved.</p>
     </footer>
+    <script src="dfwt.js"></script>
+
 </body>
 </html>
