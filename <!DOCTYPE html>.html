@@ -1,0 +1,145 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>DfwtAsteroid</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css">
+    <link rel="stylesheet" type="text/css" href="./dfwtAsteriod.css">
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #121212;
+            color: #080707;
+            text-align: center;
+        }
+        header {
+            background: #0d0d0d;
+            padding: 20px;
+        }
+        nav ul {
+            list-style: none;
+            padding: 0;
+        }
+        nav ul li {
+            display: inline;
+            margin: 0 15px;
+        }
+        nav ul li a {
+            color: #ff6f61;
+            text-decoration: none;
+            font-weight: bold;
+        }
+        .cover {
+            width: 100%;
+            max-height: 300px;
+            object-fit: contain;
+            margin: 20px auto;
+            display: block;
+            border-radius: 10px;
+        }
+        main {
+            padding: 40px 20px;
+        }
+        section {
+            margin-bottom: 50px;
+            padding: 20px;
+            border-radius: 10px;
+            background: #0a0a0a;
+        }
+        button {
+            background: #ff6f61;
+            color: white;
+            border: none;
+            padding: 10px 20px;
+            border-radius: 5px;
+            cursor: pointer;
+        }
+        button:hover {
+            background: #e85b50;
+        }
+        input, select, textarea {
+            width: 90%;
+            padding: 10px;
+            margin-top: 10px;
+            border-radius: 5px;
+            border: none;
+        }
+        footer {
+            background: #1e1e1e;
+            text-align: center;
+            padding: 20px;
+            margin-top: 20px;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Welcome to DfwtAsteroid</h1>
+        <nav>
+            <ul>
+                <li><a href="dfwthome.html">Home</a></li>
+                <li><a href="dfwtabout.html">About</a></li>
+                <li><a href="dfwtcollections.html">Collections</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+    <img class="cover" src="dfwtAsteriod.png" alt="DfwtAsteroid Cover">
+    <main>
+        <section id="home">
+            <h2>Style Beyond Limits</h2>
+            <p>Discover the latest trends with DfwtAsteroid. Fashion that defines you.</p>
+        </section>
+        <section id="about">
+            <h2>About Us</h2>
+            <p>DfwtAsteroid is a clothing brand dedicated to delivering unique and stylish apparel that transcends fashion norms.</p>
+        </section>
+        <section id="collections">
+            <h2>Our Collections</h2>
+            <ul>
+                <li>Streetwear Essentials</li>
+                <li>Limited Edition Drops</li>
+                <li>Seasonal Trends</li>
+                <li>Custom Apparel</li>
+            </ul>
+        </section>
+        <section id="contact">
+            <h2>Contact Us</h2>
+            <p>Email: <a href="mailto:owolabiolamilekan071@gmail.com" style="color:#ff6f61;">owolabiolamilekan071@gmail.com</a></p>
+            <p>Phone: +234 91 6290 2876</p>
+        </section>   
+        <section id="signup">
+            <h2>Sign Up</h2>
+            <form id="signup-form">
+                <input type="text" id="username" name="username" placeholder="Username" required> 
+                <input type="email" id="email" name="email" placeholder="Email" required> 
+                <input type="password" id="password" name="password" placeholder="Password" required>
+                <button type="submit">Sign Up</button>
+            </form>
+        </section>
+        <section id="order">
+            <h2>Place Your Order</h2>
+            <form id="order-form">
+                <select id="product" name="product">
+                    <option value="product1">Product 1</option>
+                    <option value="product2">Product 2</option>
+                    <option value="product3">Product 3</option>
+                    <option value="product4">Product 4</option>
+                    <option value="product5">Product 5</option>
+                </select>
+                <input type="number" id="quantity" name="quantity" min="1" value="1" required placeholder="Quantity">
+                <input type="text" id="measurement" name="measurement" placeholder="Enter measurement details" required>
+                <textarea id="address" name="address" rows="3" placeholder="Delivery Address" required></textarea>
+                <button type="submit">Place Order</button>
+            </form>
+        </section>
+    </main>
+    <footer>
+        <p>@ 2025 DfwtAsteroid. All rights reserved.</p>
+    </footer>
+    <script src="dfwt.js"></script>
+</body>
+</html>

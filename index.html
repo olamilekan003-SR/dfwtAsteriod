@@ -14,11 +14,11 @@
         <p>Style Beyond Limits</p>
         <nav>
             <ul>
-                <li><a href="home">Home</a></li>
+                <li><a href="#home">Home</a></li>
                 <li><a href="#about">About</a></li>
                 <li><a href="#collections">Collections</a></li>
-                <li><a href="#signup">Sign Up</a></li>
-                <li><a href="#order">Order Now</a></li>
+                <li><a href="#Order">Order</a></li>
+                <li><a href="#cart-section">Cart (<span id="cart-count">0</span>)</a></li>
                 <li><a href="#contact">Contact</a></li>
             </ul>
         </nav>
@@ -29,68 +29,24 @@
             <img class="cover" src="dfwtAsteriod.png">
             <h2>Redefining Fashion, One Outfit at a Time</h2>
             <p>Elevate your wardrobe with exclusive collections that speak your style.</p>
-            <a href="#order">Shop Now</a>
+            <a href="#Order">Shop Now</a>
         </section>
 
-        <section id="about">
+        <section id="about"></section>
             <h2>About Us</h2>
             <p>DfwtAsteroid is a trendsetting fashion brand dedicated to bold, stylish, and high-quality apparel. Our collections push the boundaries of streetwear and high fashion.</p>
             <img class="cover" src="dfwtAsteriod.png">
-            <p>Astroid’s product line is a dynamic fusion of style, comfort, and sustainability,</p>
+            <p>Astroids product line is a dynamic fusion of style, comfort, and sustainability,</p>
             <p>perfect for the modern explorer.</p>
             <p>Each collection features versatile pieces crafted from eco-friendly materials,</p>
             <P>ensuring that you look good while supporting the planet.</P>
             <P>Key offerings include lightweight jackets with unique alien-inspired prints, breathable activewear,</P> 
             <P>and stylish loungewear that combines softness with an edgy flair.</P><br>
-       
          
             <p>With innovative cuts and bold colors, every piece makes a statement and reflects individuality.</p>
             <p>Astroid prioritizes quality and durability, encouraging a sustainable wardrobe that stands the test of time.</p>
             <p>Whether dressing up for an event or keeping it casual, Astroid empowers you to express your unique style with the slogan: “Not from Earth.”</p> 
     
-        </section>
-
-        <section id="collections">
-            <img class="cover" src="dfwtAsteriod.png">
-            <h2>Our Collections</h2>
-            <div class="collection-grid">
-                <div class="collection-item">
-                    <div class="box zone"><img class="cover" src="25643d91-6052-4846-be35-78f0796b6fc8.JPG"></div>
-                    <p>Oversized Tees </p>
-                </div>
-                <div class="collection-item">
-                    <div class="box zone"><img class="cover" src="0857921b-0442-414e-8800-16694c2b9e6f.JPG"></div>
-                    <p>Limited Edition Drops</p>
-                </div>
-                <div class="collection-item">
-                    <div class="box zone"><img class="cover" src="26a9cc8d-a16e-432f-9b1d-88c5e2c09f01.JPG"></div>
-                    <p>Seasonal Trends</p>
-                </div>
-                <div class="collection-item">
-                    <div class="box zone"><img class="cover" src="50f884ae-071f-4d70-b508-080173c036b1.JPG"></div>
-                    <p>Custom Apparel</p>
-                </div>
-                <div class="collection-item">
-                    <div class="box zone"><img class="cover" src="8d8a9ef6-1f65-4fbd-a37b-1049ce895b37.JPG"></div>
-                    <p>Moonwalk shorts Oversized shorts with utility pockets</p>
-                </div>
-                <div class="collection-item">
-                    <div class="box zone"><img class="cover" src="cce57887-d5af-4193-af62-d663ab194ca4.JPG"></div>
-                    <p>Crop Circle Tees</p>
-                </div>
-                <div class="collection-item"></div>
-                    <div class="box zone"><img class="cover" src="df4abf6c-7fe8-4bbc-8069-8ecdd57159bd.JPG"></div>
-                    <p>Monochrome Spacesuits</p>
-                    <div class="collection-item">
-                        <div class="box zone"><img class="cover" src="d29f02d6-a040-4ac2-acc3-c2f28395c1ee.JPG"></div>
-                        <p>Extraterrestrial Denim</p>
-                    </div>
-                    <div class="collection-item">
-                        <div class="box zone"><img class="cover" src="PHOTO-2024-10-22-14-24-02 3.jpg"></div>
-                        <p>Mayan Star Maps Tees </p>
-                    </div>
-                </div>
-            </div>
         </section>
 
         <section id="signup">
@@ -104,28 +60,203 @@
             </form>
         </section>
 
-        <section id="order">
-            <img class="cover" src="dfwtAsteriod.png">
-            <h2>Place Your Order</h2>
-            <form id="order-form">
-                <select id="product" name="product">
-                    <option value="">Select Product</option>
-                    <option value="product1">oversized tee👽</option>
-                    <option value="product2">baggy👽</option>
-                    <option value="product3">Joggers👽</option>
-                    <option value="product4">👽shorts</option>
-                    <option value="product5">crop top👽</option>
-                </select>
-       
-                <input type="number" id="quantity" name="quantity" min="1" value="1" required placeholder="Quantity">
-                <input type="text" id="measurement" name="measurement" placeholder="Enter measurement details" required>
-                <textarea id="address" name="address" rows="3" placeholder="Delivery Address" required></textarea>
-                <button type="submit">Place Order</button>
-            </form>
-        </section>
 
+        <section id="Order">
+            <h2>Order Now</h2>
+            <div class="product-grid">
+                
+                <div class="product">
+                    <img src="25643d91-6052-4846-be35-78f0796b6fc8.JPG" alt="AsTeRiOd LiMiTeD VeRsIoN">
+                    <h4>AsTeRiOd LiMiTeD VeRsIoN👽🔥</h4>
+                    <p>45$</p>
+                    <button class="add-to-cart" data-id="product3" data-name="AsTeRiOd LiMiTeD VeRsIoN👽🔥" data-price="45">Add to Cart</button>
+                </div>
+        
+                <div class="product">
+                    <img src="download (111).jpeg" alt="long sleeve">
+                    <h3>long sleeve👽🔥</h3>
+                    <p>$25</p>
+                    <button class="add-to-cart" data-id="product4" data-name="long sleeve👽🔥" data-price="25">Add to Cart</button>
+                </div>
+                
+                <div class="product">
+                    <img src="download (115).jpeg" alt="NoT fRoM eArTh">
+                    <h4>NoT fRoM eArTh👽🔥🪐</h4>
+                    <p>$40</p>
+                    <button class="add-to-cart" data-id="product5" data-name="NoT fRoM eArTh👽🔥🪐" data-price="60">Add to Cart</button>
+                </div>
+        
+                <div class="product">
+                    <img src="download (113).jpeg" alt="Baggy Top">
+                    <h3>Baggy Top 👽🔥</h3>
+                    <p>$30</p>
+                    <button class="add-to-cart" data-id="product6" data-name="Baggy Top 👽🔥" data-price="30">Add to Cart</button>
+                </div>
+        
+                <div class="product">
+                    <img src="download (116).jpeg" alt="Graphic Tee">
+                    <h3>Graphic Tee 👽🔥🎨</h3>
+                    <p>$25</p>
+                    <button class="add-to-cart" data-id="product7" data-name="Graphic Tee 👽🔥🎨" data-price="25">Add to Cart</button>
+                </div>
+        
+                <div class="product">
+                    <img src="download (112).jpeg" alt="Asteriod">
+                    <h3>Asteriod 👽🔥</h3>
+                    <p>$30</p>
+                    <button class="add-to-cart" data-id="product8" data-name="Asteriod 👽🔥" data-price="30">Add to Cart</button>
+                </div>
+        
+                <div class="product">
+                    <img src="download (921).jpeg" alt="crop top">
+                    <h3>crop top👽🪐</h3>
+                    <p>$20</p>
+                    <button class="add-to-cart" data-id="product9" data-name="crop top👽🪐" data-price="20">Add to Cart</button>
+                </div>
+
+                <div class="product">
+                    <img src="download (400).jpeg" alt="crop top">
+                    <h3>crop top👽🪐 </h3>
+                    <p>$20</p>
+                    <button class="add-to-cart" data-id="product12" data-name="crop top👽🪐 " data-price="20">Add to Cart</button>
+                </div>
+
+                <div class="product">
+                    <img src="images (3).jpeg" alt="crop top">
+                    <h3>crop top👽🪐 </h3>
+                    <p>$20</p>
+                    <button class="add-to-cart" data-id="product12" data-name="crop top👽🪐 " data-price="20">Add to Cart</button>
+                </div>
+
+                <div class="product">
+                    <img src="download (419).jpeg" alt="Bucket Hat">
+                    <h3>Bucket Hat 👽🪐🧢</h3>
+                    <p>$6</p>
+                    <button class="add-to-cart" data-id="product12" data-name="Bucket Hat 👽🪐🧢" data-price="6">Add to Cart</button>
+                </div>
+
+                <div class="product">
+                    <img src="download (420).jpeg" alt="Bucket Hat">
+                    <h3>Bucket Hat 👽🪐🧢</h3>
+                    <p>$6</p>
+                    <button class="add-to-cart" data-id="product12" data-name="Bucket Hat 👽🪐🧢" data-price="6">Add to Cart</button>
+                </div>
+        
+                
+                <div class="product">
+                    <img src="download (911).jpeg" alt="Flannel Shirt">
+                    <h3>Flannel Shirt 👽🪐🔥</h3>
+                    <p>$18</p>
+                    <button class="add-to-cart" data-id="product10" data-name="Flannel Shirt 👽🪐🔥" data-price="18">Add to Cart</button>
+                </div>
+        
+                <div class="product">
+                    <img src="download114.jpeg" alt="baggy Jeans">
+                    <h3>baggy Jeans 👖👽🪐</h3>
+                    <p>$35</p>
+                    <button class="add-to-cart" data-id="product11" data-name="baggy Jeans 👖👽🪐" data-price="35">Add to Cart</button>
+                </div>
+
+                
+                <div class="product">
+                    <img src="download (5).jpeg" alt="baggy Jeans">
+                    <h3>baggy Jeans 👖👽🪐</h3>
+                    <p>$30</p>
+                    <button class="add-to-cart" data-id="product12" data-name="baggy Jeans 👖👽🪐" data-price="30">Add to Cart</button>
+                </div>
+
+                <div class="product">
+                    <img src="download (6).jpeg" alt="baggy Jeans">
+                    <h3>baggy Jeans 👖👽🪐</h3>
+                    <p>$20</p>
+                    <button class="add-to-cart" data-id="product12" data-name="baggy Jeans 👖👽🪐" data-price="20">Add to Cart</button>
+                </div>
+
+                <div class="product">
+                    <img src="images (4).jpeg" alt="baggy Jeans">
+                    <h3>baggy Jeans 👖👽🪐</h3>
+                    <p>$35</p>
+                    <button class="add-to-cart" data-id="product12" data-name="baggy Jeans 👖👽🪐" data-price="35">Add to Cart</button>
+                </div>
+
+                <div class="product">
+                    <img src="images (5).jpeg" alt="baggy Jeans">
+                    <h3>baggy Jeans 👖👽🪐</h3>
+                    <p>$30</p>
+                    <button class="add-to-cart" data-id="product12" data-name="baggy Jeans 👖👽🪐" data-price="30">Add to Cart</button>
+                </div>
+
+                <div class="product">
+                    <img src="images (1).jpeg" alt="baggy Jeans">
+                    <h3>baggy Jeans 👖👽🪐</h3>
+                    <p>$20</p>
+                    <button class="add-to-cart" data-id="product12" data-name="baggy Jeans 👖👽🪐" data-price="20">Add to Cart</button>
+                </div>
+
+                <div class="product">
+                    <img src="cce57887-d5af-4193-af62-d663ab194ca4.JPG" alt="Asteriod long sleeve and shorts">
+                    <h3>Asteriod long sleeve and shorts 👽🔥</h3>
+                    <p>$50</p>
+                    <button class="add-to-cart" data-id="product12" data-name="Asteriod long sleeve and shorts 👽🔥" data-price="50">Add to Cart</button>
+                </div>
+
+                <div class="product">
+                    <img src="df4abf6c-7fe8-4bbc-8069-8ecdd57159bd.JPG" alt="Asteriod shorts sleeve and shorts">
+                    <h3>Asteriod shorts sleeve and shorts 👽🔥</h3>
+                    <p>$45</p>
+                    <button class="add-to-cart" data-id="product12" data-name="Asteriod shorts sleeve and shorts 👽🔥" data-price="45">Add to Cart</button>
+                </div>
+
+                <div class="product">
+                    <img src="asteriod foamposite(9).jpeg" alt="AsTeRiOd FoAmPoSiTe">
+                    <h3>AsTeRiOd FoAmPoSiTe🥾👽🔥</h3>
+                    <p>$300</p>
+                    <button class="add-to-cart" data-id="product12" data-name="AsTeRiOd FoAmPoSiTe🥾👽🔥" data-price="300">Add to Cart</button>
+                </div>
+
+                <div class="product">
+                    <img src="download (iiii).jpeg" alt="AsTeRiOd martens">
+                    <h3>AsTeRiOd martens 🥾👽🔥</h3>
+                    <p>$120</p>
+                    <button class="add-to-cart" data-id="product12" data-name="AsTeRiOd martens 🥾👽🔥" data-price="120">Add to Cart</button>
+                </div>
+
+                <div class="product">
+                    <img src="download (ast).jpeg" alt="limited asteriod forces">
+                    <h3>limited asteriod forces 🥾👽🔥 </h3>
+                    <p>$250</p>
+                    <button class="add-to-cart" data-id="product12" data-name="limited asteriod forces 🥾👽🔥 " data-price="250">Add to Cart</button>
+                </div>
+
+                <div class="product">
+                    <img src="download (as).jpeg" alt="Bucket Hat">
+                    <h3>AsTeRiOd sneakers 👟👽🔥</h3>
+                    <p>$75</p>
+                    <button class="add-to-cart" data-id="product12" data-name="Bucket Hat 🧢" data-price="75">Add to Cart</button>
+                </div> 
+            </div>
+        </section>
+        
+        </section>
+        <section id="cart-section">
+            <h2>Shopping Cart</h2>
+            <div id="cart-items"></div>
+            <button id="checkout-btn">Proceed to Checkout</button>
+        </section>
+        
+        <section id="delivery-section" style="display: none;">
+            <h2>Delivery Details</h2>
+            <form id="delivery-form">
+                <input type="text" id="full-name" placeholder="Full Name" required>
+                <input type="text" id="address" placeholder="Delivery Address" required>
+                <input type="tel" id="phone" placeholder="Phone Number" required>
+                <textarea id="instructions" placeholder="Special Instructions"></textarea>
+                <button type="submit">Confirm Delivery</button>
+            </form>
+            <div id="delivery-message"></div>
+        </section>
+        
         <section id="contact">
-            <img class="cover" src="dfwtAsteriod.png">
             <h2>Contact Us</h2>
             <p>Email: <a href="mailto:owolabiolamilekan071@gmail.com">owolabiolamilekan071@gmail.com</a></p>
             <p>Phone: +234 91 6290 2876</p>
@@ -140,4 +271,3 @@
     <script src="dfwt.js"></script>
 </body>
 </html>
-
